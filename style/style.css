@@ -13,6 +13,35 @@ body {
   .nav-small {
     display: flex;
   }
+
+  .banner{
+    background-image: url('../assets/background_small.png');
+  }
+
+  .banner-new{
+    top: 8px;
+    right: 10px;
+  }
+
+  .banner-music{
+    width: 250px;
+  }
+
+  .banner-heading{
+    font-size:40px;
+  }
+
+  .why-choose{
+    padding: 20px;
+  }
+  .choose-techWave{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+ 
+
 }
 
 @media screen and (width > 576px) {

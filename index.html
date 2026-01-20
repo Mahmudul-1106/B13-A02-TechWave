@@ -1,61 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechWave</title>
     <link rel="stylesheet" href="./style/style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header>
-        <nav class=" nav-big hidden bg-[#1A0B2E] justify-around py-6 items-center font-medium border-b border-[#412567]">
-            <h2 class="text-white text-4xl font-bold">Tech<span class="text-transparent bg-clip-text bg-[linear-gradient(48deg,#F7E93F_16.53%,#FB09B4_49.82%,#9100F8_81.65%)]">Wave</span> </h2>
+        <nav
+            class=" nav-big hidden bg-[#1A0B2E] justify-around py-6 items-center font-medium border-b border-[#412567]">
+            <h2 class="text-white text-4xl font-bold">Tech<span
+                    class="text-transparent bg-clip-text bg-[linear-gradient(48deg,#F7E93F_16.53%,#FB09B4_49.82%,#9100F8_81.65%)]">Wave</span>
+            </h2>
             <ul class="text-white flex gap-8">
                 <li><a href="">About</a></li>
                 <li><a href="">Episodes</a> </li>
                 <li><a href="">Host</a></li>
             </ul>
-            <button class="text-white px-4 py-3 bg-linear-[48deg,#F7E93F_16.53%,#FB09B4_49.82%,#9100F8_81.65%] rounded-[10000px]">Subscribe <i class="fa-solid fa-arrow-right"></i></i></button>
+            <button
+                class="text-white px-4 py-3 bg-linear-[48deg,#F7E93F_16.53%,#FB09B4_49.82%,#9100F8_81.65%] rounded-[10000px]">Subscribe
+                <i class="fa-solid fa-arrow-right"></i></i></button>
         </nav>
 
-        <nav class="nav-small hidden bg-[#1A0B2E] justify-between py-4 px-5 items-center font-medium border-b border-[#412567]">
-            <h2 class="text-white text-2xl font-bold">Tech<span class="text-transparent bg-clip-text bg-[linear-gradient(48deg,#F7E93F_16.53%,#FB09B4_49.82%,#9100F8_81.65%)]">Wave</span> </h2>
-            
+        <nav
+            class="nav-small hidden bg-[#1A0B2E] justify-between py-4 px-5 items-center font-medium border-b border-[#412567]">
+            <h2 class="text-white text-2xl font-bold">Tech<span
+                    class="text-transparent bg-clip-text bg-[linear-gradient(48deg,#F7E93F_16.53%,#FB09B4_49.82%,#9100F8_81.65%)]">Wave</span>
+            </h2>
+
             <img src="./assets/hamburger-menu.png" alt="">
         </nav>
 
-        <section class="banner bg-[url(./assets/hero-bg.png)] bg-cover bg-center h-full  w-full  ">
-            
+        <section class="banner bg-[url(./assets/hero-bg.png)] bg-cover bg-no-repeat bg-center h-full  w-full  ">
+
             <div class=" pt-24 flex justify-center items-center">
-                <div class="relative">
+                <div class="banner-music relative">
                     <img class="banner-image max-w-full h-1/2" src="./assets/hero-circle.png" alt="">
                     <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                        <img  src="./assets/microphone.png" alt="">
+                        <img src="./assets/microphone.png" alt="">
                     </div>
-                    <div class="absolute top-5 right-7">
+                    <div class="banner-new absolute top-5 right-7">
                         <p class=" py-2 px-4 bg-[#0F8] rounded-[1000px]">New</p>
-                    </div>                   
+                    </div>
                 </div>
-             </div>
-
-             <div class="text-center pt-10 pb-24">
-                        <h2 class="text-white text-7xl font-extrabold">TechWave</h2>
-                        <p class="text-white py-2">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-
-                        <div class="flex justify-center gap-2  py-10">
-                            <button class="flex border-1  gap-2  text-white  px-4 py-3 bg-linear-[48deg,#F7E93F_16.53%,#FB09B4_49.82%,#9100F8_81.65%] rounded-[10000px]"><img src="./assets/spotify.png" alt=""> Listen on Spotify</button>
-                            
-                        <button class="flex  text-[#00FF88] gap-3  px-5 py-3  rounded-[10000px] border-1 border-[#00FF88] bg-none"><img class="w-ful" src="./assets/message.png" alt="">Subscribe</button>
-                        </div>
-                        
             </div>
 
-                    
-            
+            <div class="text-center pt-10 pb-24">
+                <h2 class="banner-heading text-white text-7xl font-extrabold">TechWave</h2>
+                <p class="text-white py-2">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+
+                <div class="flex justify-center gap-2  py-10">
+                    <button
+                        class="flex border-1 border-[#1A0B2E] text-white  px-3 py-3 bg-linear-[48deg,#F7E93F_16.53%,#FB09B4_49.82%,#9100F8_81.65%] rounded-[10000px]">
+                        <img class="mr-2" src="./assets/spotify.png" alt=""> Listen on Spotify</button>
+
+                    <button
+                        class="flex  text-[#00FF88] gap-3  px-5 py-3  rounded-[10000px] border-1 border-[#00FF88] bg-none"><img
+                            class="w-5" src="./assets/message.png" alt="">Subscribe</button>
+                </div>
+
+            </div>
         </section>
     </header>
 
+    <main>
+        <section class="why-choose p-28 bg-[#230E3D] text-white">
+
+            <h1 class="text-center pb-10 text-5xl font-bold">Why Choose TechWave</h1>
+
+            <div class="choose-techWave grid grid-cols-3 gap-7 ">
+
+                <div class="flex flex-col justify-center p-10 text-left rounded-[40px] row-span-2 bg-[#351165]/40">
+                    <img class="w-14" src="./assets/headphone.png" alt="">
+                    <h4 class="py-4 text-2xl font-bold ">Premium Audio Quality</h4>
+                    <p class="text-justify">Experience crystal-clear sound with professional-grade recording equipment
+                        and expert audio
+                        engineering. Every episode is mastered for optimal listening across all devices and platforms.
+                    </p>
+                </div>
+
+                <div class="flex flex-col justify-center p-10 text-left rounded-[40px] col-span-2 bg-[#351165]/40">
+                    <img class="w-14" src="./assets/device.png" alt="">
+                    <h4 class="py-4 text-2xl font-bold ">Mobile Friendly</h4>
+                    <p class="text-justify">Listen on the go with seamless mobile experience and offline downloads.
+                    </p>
+                </div>
+
+                <div class="flex flex-col justify-center p-10 text-left rounded-[40px] col-span-2 bg-[#351165]/40 ">
+                    <img class="w-14" src="./assets/location.png" alt="">
+                    <h4 class="py-4 text-2xl font-bold ">Global Community</h4>
+                    <p class="text-justify">Connect with tech enthusiasts from over 120 countries worldwide.</p>
+                </div>
+
+                <div class="flex flex-col justify-center p-10 text-left rounded-[40px] col-span-2 bg-[#351165]/40">
+                    <img class="w-14" src="./assets/interview.png" alt="">
+                    <h4 class="py-4 text-2xl font-bold ">Exclusive Interviews</h4>
+                    <p class="text-justify">Get unprecedented access to industry titans, startup founders, and tech
+                        visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep
+                        into their journeys, failures, and success strategies.
+                    </p>
+                </div>
+
+                <div class="flex flex-col justify-center p-10 text-left rounded-[40px]  bg-[#351165]/40">
+                    <img class="w-14" src="./assets/resource.png" alt="">
+                    <h4 class="py-4 text-2xl font-bold ">Rich Resources</h4>
+                    <p class="text-justify">Access show notes, transcripts, and additional learning materials for every
+                        episode.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+
 </body>
+
 </html>
