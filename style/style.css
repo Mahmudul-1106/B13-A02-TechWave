@@ -78,6 +78,18 @@ body {
   .icon {
     justify-content: center;
   }
+
+  .footer {
+    background-image: url("../assets/footer-small.png");
+  }
+
+  .footer-title {
+    font-size: 32px;
+  }
+
+  .footer-icon {
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (width > 576px) {
