@@ -41,6 +41,19 @@ body {
     font-size: 40px;
   }
 
+  .podcast {
+    padding: 20px;
+  }
+
+  .podcast-text {
+    padding: 10px;
+  }
+  .podcast-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+
   .why-choose {
     padding: 20px;
   }
